@@ -77,6 +77,11 @@
      color: black;
      background-color: #ccc;
      box-shadow: 0rem .3rem .3rem .01rem #d0cfcf;
+     border: .1rem solid #bdbdbd;
+ }
+
+ .opcao:hover .icone-final {
+     opacity: 1;
  }
 
  .icone-inicial {
@@ -93,6 +98,8 @@
      /* border: .1rem solid blue; */
      width: 1.5rem;
      text-align: right;
+     opacity: 0;
+     transition: opacity .3seg ease;
  }
 
  main {
