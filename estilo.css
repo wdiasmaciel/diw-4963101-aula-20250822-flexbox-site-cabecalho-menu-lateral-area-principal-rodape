@@ -99,13 +99,15 @@
      width: 1.5rem;
      text-align: right;
      opacity: 0;
-     transition: opacity .3seg ease;
+     transition: opacity .3sec ease;
  }
 
  main {
      /* border: 0.1rem solid pink; */
      flex: 1;
      padding: 0.5rem;
+     display: flex;
+     
  }
 
  .cartao {
@@ -114,6 +116,8 @@
      height: 20rem;
      padding: 0.5rem;
      box-shadow: 0.5rem 0.5rem 0.3rem #eee;
+     margin-right: 1rem;
+     margin-bottom: 1rem;
  }
 
  .produto {
@@ -157,4 +161,16 @@
      padding: 0.5rem;
      background-color: rgb(48, 44, 44);
      color: #eee;
+ }
+
+ @media (max-width: 578px) {
+    nav {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
  }
