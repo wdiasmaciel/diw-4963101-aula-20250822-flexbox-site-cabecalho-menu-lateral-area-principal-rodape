@@ -82,7 +82,8 @@
  }
 
  .opcao:hover .rotulo {
-     transform: translateX(90%);
+     /* transform: translateX(90%); */
+     text-align: right;
  }
 
  .opcao:hover .icone-final {
@@ -101,7 +102,7 @@
 
  .icone-final {
      /* border: .1rem solid blue; */
-     width: 1.5rem;
+     width: 1rem;
      text-align: right;
      opacity: 0;
      transition: opacity .3s ease-in;
