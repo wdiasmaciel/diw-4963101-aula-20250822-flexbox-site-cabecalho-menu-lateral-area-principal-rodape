@@ -80,6 +80,10 @@
      border: .1rem solid #bdbdbd;
  }
 
+ .opcao:hover .rotulo {
+     transform: translateX(90%);
+ }
+
  .opcao:hover .icone-final {
      opacity: 1;
  }
@@ -99,7 +103,7 @@
      width: 1.5rem;
      text-align: right;
      opacity: 0;
-     transition: opacity .3sec ease;
+     transition: opacity .3s ease;
  }
 
  main {
