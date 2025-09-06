@@ -43,8 +43,37 @@
  }
 
  .titulo {
+     /* border: .1rem solid white; */
      font-weight: bold;
      color: #eee;
+     flex: 1;
+ }
+
+ .menu-hamburguer {
+     /* border: .1rem solid red; */
+     border-radius: 100%;
+     width: 1.2rem;
+     height: 1.2rem;
+     padding: .7rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     background-color: #515050;
+ }
+
+ .menu-hamburguer i {
+     color: #ccc;
+ }
+
+ 
+ .menu-hamburguer:hover i {
+     color: #eee;
+     background-color: #5b5a5a;
+ }
+
+ .menu-hamburguer i:hover {
+     color: white;
  }
 
  section {
