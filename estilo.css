@@ -203,6 +203,10 @@
  }
 
  @media (max-width: 578px) {
+    .titulo {
+        opacity: 0;
+    }
+    
      nav {
          display: none;
      }
