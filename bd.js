@@ -7,7 +7,7 @@ const dados = [
     {
         "id": 1,
         "titulo": "Mobilidade Urbana em Belo Horizonte",
-        "descricao": ,
+        "descricao": "Estudos para definição de políticas e de uma carteira de projetos e ações para melhoria das condições de mobilidade urbana.",
         "conteudo": ,
         "categoria": ,
         "autor": ,
