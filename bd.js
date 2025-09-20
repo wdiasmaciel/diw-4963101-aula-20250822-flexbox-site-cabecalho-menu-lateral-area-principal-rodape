@@ -12,7 +12,7 @@ const dados = [
         "categoria": ,
         "autor": ,
         "data": ,
-        "imagem": "./asset/imagem/"
+        "imagem": "./asset/imagem/mobilidade.png"
     },
     {
         "id": ,
@@ -22,7 +22,7 @@ const dados = [
         "categoria": ,
         "autor": ,
         "data": ,
-        "imagem": "./asset/imagem/"
+        "imagem": "./asset/imagem/tecnologia-6g.png"
     },
     {
         "id": ,
@@ -32,6 +32,6 @@ const dados = [
         "categoria": ,
         "autor": ,
         "data": ,
-        "imagem": "./asset/imagem/"
+        "imagem": "./asset/imagem/festival-de-musica.png"
     }
 ];
