@@ -12,7 +12,7 @@ const dados = [
         "categoria": "Transporte",
         "autor": "Ana Maria Silva",
         "data": "19/09/2025",
-        "imagem": "./asset/imagem/mobilidade.png"
+        "imagem": "./assets/imagem/mobilidade.png"
     },
     {
         "id": 1,
@@ -22,7 +22,7 @@ const dados = [
         "categoria": "Tecnologia",
         "autor": "Bruno Costa e Silva",
         "data": "26/09/2025",
-        "imagem": "./asset/imagem/tecnologia-6g.png"
+        "imagem": "./assets/imagem/tecnologia-6g.png"
     },
     {
         "id": 2,
@@ -32,6 +32,6 @@ const dados = [
         "categoria": "Cultura",
         "autor": "Carla Vieira Santos",
         "data": "24/09/2025",
-        "imagem": "./asset/imagem/festival-de-musica.png"
+        "imagem": "./assets/imagem/festival-de-musica.png"
     }
 ];
